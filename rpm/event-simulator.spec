@@ -2,10 +2,11 @@ Name:           event-simulator
 Summary:        event-simulator
 Version:        0.1
 Release:        1
-Group:          Development/Tools/Other
+Group:          Daemons
 License:        GPLv2+
 URL:            https://github.com/lancelion/event-simulator
 Source0:        %{name}-%{version}.tar.gz
+BuildRequires: pkgconfig(Qt5Core)
 
 %description
 Event simulator for Jolla-QA
