@@ -1,7 +1,7 @@
 #QT += core dbus network
 # needed for qpa/qplatformnativeinterface.h
 #QT += platformsupport-private
- QT -= gui 
+#QT -= gui 
 TEMPLATE = app
 TARGET = simulate-event
 target.path += /usr/bin

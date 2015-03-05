@@ -1,12 +1,12 @@
 /****************************************************************************
  *
- *  main.cpp - Mervncserver, a VNC server for Mer devices
- *  Copyright (C) 2014 Jolla Ltd.
- *  Contact: Reto Zingg <reto.zingg@jolla.com>
+ *  main.cpp - event-simulator, an event simulator for Jolla QA.
+ *  Copyright (C) 2015 Jolla Ltd.
+ *  Contact: Maciej Blomberg <maciej.blomberg@jolla.com>
  *
- *  This file is part of Mervncserver.
+ *  This file is part of event-simulator.
  *
- *  Mervncserver is free software; you can redistribute it and/or modify
+ *  event-simulator is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation; either version 2 of the License, or
  *  (at your option) any later version.

@@ -2,11 +2,10 @@ Name:           event-simulator
 Summary:        event-simulator
 Version:        0.1
 Release:        1
-Group:          Daemons
+Group:          Development/Tools/Other
 License:        GPLv2+
-URL:            https://github.com/mer-qa/mervncserver
+URL:            https://github.com/lancelion/event-simulator
 Source0:        %{name}-%{version}.tar.gz
-BuildRequires:  pkgconfig(Qt5Core)
 
 %description
 Event simulator for Jolla-QA
@@ -31,4 +30,4 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%attr(755, root, privileged) %{_bindir}/simulate-event
+%{_bindir}/simulate-event
